@@ -21,9 +21,9 @@ app.use('/standings',require("./routes/standingsRoutes"));
 app.use('/players',require("./routes/playersRoutes"));
 app.use('/favorites',require("./routes/favRoutes"));
 
-// Redirigir a la pàgina d'inici de sessió
+// Redirigir a la pàgina d'inici
 app.get("/", (req, res) => {
-    res.redirect("/html/inici.html");
+    res.redirect("Public/html/inici.html");
 });
 
 
