@@ -25,7 +25,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     const leagueCountry = document.getElementById('league-country');
     const favoriteBtn = document.getElementById('favorite-btn');
 
-    const backendUrl = "http://localhost:5000";  // URL del backend
+    const backendUrl = window.location.hostname.includes("localhost")
+    ? "http://localhost:5000"
+    : "https://projectefinal-lafz.onrender.com";  // URL del backend
     const seasonYear = 2023;  // Temporada actual
 
     try {
