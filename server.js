@@ -23,7 +23,7 @@ app.use('/favorites',require("./routes/favRoutes"));
 
 // Redirigir a la pàgina d'inici
 app.get("/", (req, res) => {
-    res.redirect("Public/html/inici.html");
+    res.redirect("/html/inici.html");
 });
 
 
