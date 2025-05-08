@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     const backendUrl = window.location.hostname.includes("localhost")
     ? "http://localhost:5000"
-    : "https://projectefinal-lafz.onrender.com";  // URL del backend
+    : "https://projectefinal-lafz.onrender.com";  // URL del backend per a local host y servidor Hosting
     const seasonYear = 2023;  // Temporada actual
 
     try {
