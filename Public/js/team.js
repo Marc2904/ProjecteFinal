@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", async function () {
     const teamCountry = document.getElementById('team-country');
     const favoriteBtn = document.getElementById('favorite-btn');
 
-    const backendUrl = "http://localhost:5000"; // URL del servidor backend
+    const backendUrl = window.location.hostname.includes("localhost")
+    ? "http://localhost:5000"
+    : "https://projectefinal-lafz.onrender.com";  // URL del backend per a local host y servidor Hosting
     const seasonYear = 2023; // Any de la temporada
 
     try {
