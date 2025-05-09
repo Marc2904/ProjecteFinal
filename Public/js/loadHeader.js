@@ -24,7 +24,7 @@ function initAuth() {
             authButton.innerHTML = `
             <div class="d-flex align-items-center">
                 <a href="../Html/favorites.html" class="nav-link text-white me-2">Hola, ${username}</a>
-                <a href="#" class="nav-link text-success" id="logout-btn">Tanca sessió</a>
+                <a href="../Html/inici.html" class="nav-link text-success" id="logout-btn">Tanca sessió</a>
             </div>
         `;
 
