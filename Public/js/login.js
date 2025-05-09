@@ -38,7 +38,7 @@ document.getElementById("login-form").addEventListener("submit", function (event
 
       // Mostra un avís i redirigeix a la pàgina d'inici
       alert("Login correcte!");
-      window.location.href = "../html/Inici.html";
+      window.location.href = "../Html/Inici.html";
     } else {
       // Mostra un error si les credencials no són vàlides
       alert(data.error || "Error en el login");
