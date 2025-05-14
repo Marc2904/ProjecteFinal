@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 </div>
             `;
 
-            // Afegeix la targeta al contenidor
+            // Afegeix la targeta al contenidor.
             container.appendChild(card);
         });
 
